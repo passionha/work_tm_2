@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.byweb.tm.dao.AnlysStdDao">
+	
+	<select id="getAnlysStdList" resultType="kr.byweb.tm.user.anlysStd.model.AnlysStd">
+		SELECT
+		      KWD_SPR
+		    , SCRNG_SPR
+			, KWD_NM
+			, GRP_NM
+			, SYN_NM
+			, RNG
+			, SCR
+			, USE_YN
+			, EMP_NO
+			, REG_DT
+		  FROM TM_ANLYS_STD
+	</select>
+   
+ </mapper>
