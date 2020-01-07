@@ -68,11 +68,11 @@
 		</dependency>
 		
 		<!-- Connection pool Library -->
-		<dependency>
+		<!-- <dependency>
 		    <groupId>commons-dbcp</groupId>
 		    <artifactId>commons-dbcp</artifactId>
 		    <version>1.4</version>
-		</dependency>
+		</dependency> -->
 		
 		<!-- Oracle JDBC Driver -->
 		<dependency>
